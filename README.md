@@ -26,22 +26,22 @@ For more information:
 
 4. **Import Task:**
    - In the right-hand Actions pane, click on "Import Task...".<br><br>
-![](Installation-Steps/1.png)
-<br>
+![](Installation-Steps/1.png) <br>
+
    - Navigate to the location where you extracted zip and select **"BatteryAlert.xml"** file under **"Installation Steps Folder"** and click "Open."<br><br>
-![](Installation-Steps/2.png)
-<br>
+![](Installation-Steps/2.png) <br>
+
 5. **Save BatteryAlert Task:**
    - In Task Scheduler, click on "OK".<br><br>
-![](Installation-Steps/3.png)
-<br>
+![](Installation-Steps/3.png) <br>
+
    - Click on "Task Scheduler Library" you'll see BatterAlert Task has been created in Task scheduler. (if you dont see just click refresh, In the right-hand Actions pane).<br><br>
-![](Installation-Steps/4.png)
-<br>
+![](Installation-Steps/4.png) <br>
+
 6. **Start BatterAlert Task Manually:**
    - Right-click on BatterAlert task and Select "Run" to execute the task manually.<br><br>
-![](Installation-Steps/5.png)
-<br>
+![](Installation-Steps/5.png) <br>
+
 ## ✨ Notes
 
 	- (Optional) After All the installation, you can better restart your laptop to read battery percentage and run the script properly.

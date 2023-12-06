@@ -19,22 +19,27 @@ For more information:
 
 2. **Copy Script Folder:**
    - Extract zip and Copy the **BatteryAlert** Folder to **"C:\Program Files\"**.
-   
+
 3. **Open Task Scheduler:**
    - Press Win + S to open the search bar.
    - Type "Task Scheduler" and press Enter to open Task Scheduler.
 
+
 4. **Import Task:**
    - In the right-hand Actions pane, click on "Import Task...".
+![](Installation-Steps/1.png)
    - Navigate to the location where you extracted zip and select **"BatteryAlert.xml"** file under **"Installation Steps Folder"** and click "Open."
+![](Installation-Steps/2.png)
 
 5. **Save BatteryAlert Task:**
    - In Task Scheduler, click on "OK".
+![](Installation-Steps/3.png)
    - Click on "Task Scheduler Library" you'll see BatterAlert Task has been created in Task scheduler. (if you dont see just click refresh, In the right-hand Actions pane).
+![](Installation-Steps/4.png)
 
 6. **Start BatterAlert Task Manually:**
    - Right-click on BatterAlert task and Select "Run" to execute the task manually.
-
+![](Installation-Steps/5.png)
 
 ## ✨ Notes
 

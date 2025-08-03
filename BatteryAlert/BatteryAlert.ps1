@@ -10,11 +10,10 @@
 
 .NOTES
     File Name      : BatteryAlert.ps1
-    Version        : v1.0.0
+    Version        : v1.0.1
     Author         : Waqar Naik
     GitHub         : https://github.com/waqarnaik/BatteryAlert
     Prerequisite   : PowerShell, BurntToast module
-
 #>
 
 # Install BurntToast module if not already installed
@@ -25,12 +24,10 @@ if (-not (Get-Module -Name BurntToast -ListAvailable)) {
 # Import BurntToast module
 Import-Module BurntToast -Force
 
-
 $BatterySettings = [PSCustomObject]@{
-    LowThreshold = 29
+    LowThreshold  = 29
     HighThreshold = 79
 }
-
 
 function Show-BatteryNotification {
     param (
